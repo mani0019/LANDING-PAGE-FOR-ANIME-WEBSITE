@@ -1,0 +1,111 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border box;
+    font-family:"Gilroy";
+
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background: flex;
+
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(213, 205, 205);
+    
+}
+#left{
+    position: relative;
+    display: flex;
+    width: 40%;
+    height: 100%;
+    background-color:yellow;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/038/367/250/non_2x/editorial-design-one-piece-character-monkey-d-luffy-anime-character-illustration-in-one-piece-free-vector.jpg);
+    background-size: cover;
+    }
+#element{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 30px;
+}
+#navr{
+    display: flex;
+    
+}
+#navr a{
+    margin-left: 14px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+#navr i{
+    color: royalblue;
+}
+#left #textcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#textcenter h1{
+    font-size: 90px;
+    font-weight: 900;
+
+}
+#textcenter h4{
+    opacity: .9;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#teaxtcenter a{
+    text-decoration: none;
+    color: black;
+    border-bottom: red;
+    padding-bottom: 20px;
+}
+#right{
+   
+    width: 60%;
+    height: 100%;
+    background-color: blueviolet;
+}
+#rtop{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+}
+#rbottom{
+    width: 100%;
+    height: 50%;
+    background-color:pink;
+    background-image: url(https://m.media-amazon.com/images/S/pv-target-images/0b79246ff36af93a015dc8087115f079adae3f4431c9fcb959d688379a414733.jpg);
+    background-size: cover;
+}
+#toprleft{
+    width: 50%;
+    height: 100%;
+    background-color: blue ;
+    background-image: url(https://cdn.animenewsnetwork.com/thumbnails/crop900x350/video/category/15/key_art_bleach.jpg);
+    
+    background-position: center;
+}
+#toprright{
+    width: 50%;
+    height: 100%;
+    background-color:brown ;
+    background-image: url(https://materialdepot-images-hbh2cjbvbtfmanhx.z02.azurefd.net/V000122/anime-dragon-ball-z-wallpaper-for-walls-life-n-colors-wallpapers-sparkla-n-shine/anime-dragon-ball-z-wallpaper-for-walls-life-n-colors-wallpapers-sparkla-n-shine/4.jpg?width=600);
+    background-size: cover;
+    background-position: center;
+}
+
